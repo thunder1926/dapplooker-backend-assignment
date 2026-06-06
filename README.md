@@ -44,3 +44,12 @@ GET /api/hyperliquid/0x08b6ba90a7613ddc7e86e02f41d0e08c80ad41e0/pnl?start=2026-0
 - Fees are derived from HyperLiquid fill fees
 - Unrealized PnL and funding are currently returned as 0 when unavailable
 - Daily aggregation is based on fill timestamps
+## Postman Collection
+
+Import the collection located at:
+
+postman/DappLooker.postman_collection.json
+
+This collection contains:
+- Token Insight API
+- HyperLiquid Daily PnL API
