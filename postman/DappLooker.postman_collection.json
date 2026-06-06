@@ -1,0 +1,74 @@
+{
+  "info": {
+    "_postman_id": "4312813a-7ee4-456e-8165-a0ecab71e8ef",
+    "name": "DappLooker Backend Assignment",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33793621",
+    "description": "Postman collection for the DappLooker Full Stack Engineer Assignment. Contains Token Insight API and HyperLiquid Wallet Daily PnL API."
+  },
+  "item": [
+    {
+      "name": "Token Insight API",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"vs_currency\": \"usd\",\r\n  \"history_days\": 30\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/token/chainlink/insight",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "token",
+            "chainlink",
+            "insight"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "HyperLiquid Daily PnL API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/hyperliquid/0x08b6ba90a7613ddc7e86e02f41d0e08c80ad41e0/pnl?start=2025-08-01&end=2025-08-03",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "hyperliquid",
+            "0x08b6ba90a7613ddc7e86e02f41d0e08c80ad41e0",
+            "pnl"
+          ],
+          "query": [
+            {
+              "key": "start",
+              "value": "2026-06-05"
+            },
+            {
+              "key": "end",
+              "value": "2025-08-03"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
