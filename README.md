@@ -66,11 +66,7 @@ Returns:
 
 **GET** `/api/hyperliquid/:wallet/pnl?start=YYYY-MM-DD&end=YYYY-MM-DD`
 
-Example:
 
-```http
-GET /api/hyperliquid/0x08b6ba90a7899ddc7e86e02f41d0e08c80ad47890/pnl?start=2026-06-05&end=2026-06-05 // fake id 
-```
 
 Returns:
 
