@@ -1,0 +1,19 @@
+{
+  "name": "dapplooker-token-insight-api",
+  "version": "1.0.0",
+  "description": "Token Insight & Analytics API for DappLooker assignment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.13.18",
+    "axios": "^1.17.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
